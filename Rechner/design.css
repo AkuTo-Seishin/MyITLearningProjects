@@ -1,0 +1,65 @@
+body {
+  font-family: Verdana;
+  background: linear-gradient(45deg, grey, lightgrey);
+}
+
+h2 {
+  background: linear-gradient(to bottom, blue, white);
+  text-align: center;
+  border-radius: 15px;
+  border-color: red;
+  border-width: 5px;
+  border-style: groove;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+#Calc {
+	width: 50em;
+  height: 30em;
+	text-align: center;
+	padding: 1em 0;
+	background: linear-gradient(to bottom, #c3eb14, lightgrey);
+	border-radius: 5.5em 5.5em 0.5em 0.5em;
+	box-shadow: inset 0 0 5px green;
+	border: 1px solid darkblue;
+  margin: 0 auto;
+  margin-top: 5em;
+  border-width: 0.85em;
+  border-style: groove;
+  border-color: #a6a0ac
+}
+
+#Calc fieldset {
+	border: none;
+	margin: 0 auto;
+	padding-bottom: 0;
+}
+
+.knopf {
+  background: linear-gradient(70deg, black, darkgrey);
+  border-radius: 50em;
+  font-size: 250%;
+	cursor: pointer;
+	margin: 7px 3%;
+	width: 18%;
+  color: #ee00ff;
+  outline: none;
+}
+
+.display {
+  border-style: groove;
+  border-color: #C0C0C0;
+  color: green;
+	display: block;
+	height: 1.5em;
+	background: black;
+	text-align: center;
+	font-size: 300%;
+	padding-right: 5%;
+	margin: 5px 6%;
+  border-radius: 2.5em 2.5em 1em 1em;
+  border-width: 0.2em;
+  margin: 0 auto;
+  outline: none;
+}

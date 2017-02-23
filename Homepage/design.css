@@ -1,0 +1,48 @@
+#kopf {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 20em;
+  background-color: lightgrey;
+  border: 5px groove darkgrey;
+  font-family: Verdana;
+  box-shadow: 10px 10px 50px grey;
+  text-shadow: 2px 2px 5px #9c1dff;
+  border-radius: 10px;
+}
+
+body{
+  background-color: #f6e2ff;
+  font-family: Arial;
+  text-align: center;
+}
+
+p {
+  border-radius: 20px;
+  border-color: violet;
+  border-width: 5px;
+  border-style: groove;
+  font-size: 20pt;
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+nav {
+  text-decoration: none;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+li {
+  border-radius: 50px;
+  border-width: 6px;
+  border-style: groove;
+  border-color: darkred;
+  box-shadow: 5px 5px 10px violet;
+}
